@@ -1,24 +1,25 @@
 Leveraging Technology for Modern Learning: A Hands-On Workshop
 
-Welcome to our workshop on Leveraging Technology for Modern Learning! In this workshop we’ll explore how the internet and smart devices can enhance your learning experience. We’ll dive into practical tools and activities that you can use to make your studies more interactive and effective. Let’s get started!
-
-Workshop Details
-
 Date: [15.08.2024]
 Time: [8.30am]
 Duration: 4 hours
 Platform: [Hybrid]
 
+In this workshop, we explore how the internet and smart devices can enhance your learning experience. We’ll dive into practical tools and activities that you can use to make your studies more interactive and effective. Let’s get started!
+
+Workshop Details
 
 1. Enhanced Engagement Through Interactive Tools
-Why It Matters:
-Interactive tools can make learning more fun and engaging. They help you participate actively and retain information better.
+
+    Why It Matters:
+    Interactive tools can make learning more fun and engaging. They help you participate actively and retain information better.
 
 Practical Activity:
 
 Kahoot! Quiz: We’ll start with a live quiz using Kahoot!. Join the game via your smartphones or computers using the link and code provided. This will give you a taste of how gamified quizzes work and how they can make studying more interactive.
 
 2. Expanding Access to Educational Resources
+
 Why It Matters:
 The internet offers a wealth of resources that can help you explore subjects in depth and learn at your own pace.
 
@@ -27,6 +28,7 @@ Practical Activity:
 Explore Online Platforms: We’ll visit Khan Academy and Coursera to explore their free resources. Choose a topic you’re interested in and browse through the courses or materials available. Take note of any particularly useful resources or features you find.
 
 3. Personalized Learning Experiences
+
 Why It Matters:
 Technology allows for personalized learning experiences, catering to your individual needs and learning styles.
 
@@ -35,6 +37,7 @@ Practical Activity:
 Google Classroom Assignment: Log into Google Classroom (or similar platform) and complete a personalized assignment. We’ll set up a demo activity that adjusts based on your responses. Observe how the platform customizes your learning experience.
 
 4. Facilitating Collaboration and Communication
+
 Why It Matters:
 Smart devices and online tools make it easier to collaborate with classmates and communicate with your teachers.
 
@@ -43,6 +46,7 @@ Practical Activity:
 Group Project on Zoom/Teams: We’ll divide into small groups and use Zoom or Microsoft Teams for a collaborative project. Each group will work on a shared document or presentation, using features like screen sharing and chat. This will showcase how these tools facilitate teamwork and communication.
 
 5. Streamlining Administrative Tasks
+
 Why It Matters:
 Technology helps manage administrative tasks more efficiently, giving you more time to focus on learning.
 
