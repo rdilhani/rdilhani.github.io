@@ -1,4 +1,4 @@
-# 🎓 **AI & Digital Tools for Smarter Learning and Careers**
+# 🎓 **Digital Tools for Smarter Learning and Careers**
 
 ---
 
