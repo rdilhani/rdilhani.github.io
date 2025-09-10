@@ -62,7 +62,7 @@ By the end of the workshop, participants will be able to:
 
 ## 🔗 Registration / Access
 
-👉 \[Insert your registration link or LMS course link here](https://forms.gle/6Vq8rAY81xZuiVbR9)
+👉 [LMS registration link](https://forms.gle/6Vq8rAY81xZuiVbR9)
 
 ---
 
