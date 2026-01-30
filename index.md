@@ -68,5 +68,28 @@ description: "Workshops • ICT in Education • Educational Technology"
       <p>My workshops focus on making technology approachable and classroom-ready. They are hands-on and practical, aimed at teachers and educational leaders who want to bring digital tools into their classrooms confidently.</p>
       <p><a href="{{ '/workshops/' | relative_url }}">See full workshop list &rarr;</a></p>
     </div>
+
+    <!-- Recent workshops (auto-list posts tagged 'workshop') -->
+    <div class="card" style="margin-top:1rem;">
+      <h3>Recent workshops</h3>
+
+      {% assign workshop_posts = site.posts | where_exp:"post","post.tags contains 'workshop'" %}
+      {% if workshop_posts.size == 0 %}
+        <p class="muted">No workshop posts found yet. Tag posts with <code>workshop</code> to have them listed here.</p>
+      {% else %}
+        <ul style="margin:0;padding-left:1rem;">
+          {% for post in workshop_posts limit:5 %}
+            <li style="margin-bottom:0.6rem;">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span class="muted" style="margin-left:0.5rem;font-size:0.95rem;">— {{ post.date | date: "%Y-%m-%d" }}</span>
+              {% if post.excerpt %}<div class="muted" style="margin-top:0.25rem;">{{ post.excerpt | strip_html | truncate: 140 }}</div>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+        <p style="margin-top:0.75rem;"><a href="{{ '/workshops/' | relative_url }}">See all workshops &rarr;</a></p>
+      {% endif %}
+    </div>
+
   </div>
 </div>
