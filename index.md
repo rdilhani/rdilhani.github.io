@@ -2,10 +2,9 @@
 layout: default
 title: "Y M R Dilhani Wepathana"
 ---
-
 <!-- Hero / Profile -->
 <section class="hero" style="text-align:center; padding:2rem 1rem;">
-  <img src="/assets/images/profile.jpg" alt="profile" style="width:140px;height:140px;border-radius:50%;object-fit:cover;">
+ <img class="profile-photo" src="https://github.com/rdilhani.png" alt="Profile photo"> 
   <h1>Y M R Dilhani Wepathana</h1>
   <p>Workshops • ICT in Education • Educational Technology</p>
 </section>
