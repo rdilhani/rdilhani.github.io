@@ -2,37 +2,6 @@
 layout: default
 title: "Y M R Dilhani Wepathana"
 ---
-<div class="profile-grid">
-  <!-- Sidebar -->
-  <aside class="sidebar-card">
-    <img class="profile-photo" src="https://github.com/rdilhani.png" alt="Profile photo"> 
-    <div class="name">Y M R Dilhani Wepathana</div>
-    <div class="role">ICT Educator • Workshop Facilitator</div>
-
-    <h4>Contact</h4>
-    <ul>
-      <li><a href="mailto:rdilhaniw@mail.com">rdilhaniw@mail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/rdilhani" target="_blank" rel="noopener">LinkedIn</a></li>
-    </ul>
-
-    <h4>Quick links</h4>
-    <ul>
-      <li><a href="{{ '/workshops/' | relative_url }}">Workshops</a></li>
-      <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-    </ul>
-
-    <h4>Skills</h4>
-    <p class="muted">Educational Technology • Instructional Design • Online Tools • Assessment</p>
-  </aside>
-</div>
-
-
-
-
-
-
-
 
 <!-- Hero / Profile -->
 <section class="hero" style="text-align:center; padding:2rem 1rem;">
