@@ -7,18 +7,18 @@ permalink: /workshops/
 
 # Workshops & Sessions
 
-Below are current and past workshops I deliver. Replace these examples with your real workshop descriptions, schedules and resources.
+Below are workshops and session posts. This page automatically lists posts with the tag `workshop`.
 
-## ICT Basics for Teachers
-- Duration: Half day
-- Summary: Introduction to essential online tools and classroom workflows.
+<ul class="workshop-list">
+{% assign workshop_posts = site.posts | where_exp:"post","post.tags contains 'workshop'" %}
+{% for post in workshop_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="meta"> — {{ post.date | date: "%Y-%m-%d" }}</span>
+    {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
 
-## Integrating Smart Devices
-- Duration: Full day
-- Summary: Practical activities and approaches for using smart devices in learning.
-
-## Online assessment & feedback
-- Duration: Half day
-- Summary: Tools and approaches for formative and summative assessment online.
-
-For more details or to request a workshop, contact: <a href="mailto:rdilhaniw@mail.com">rdilhaniw@mail.com</a>.
+If you prefer to use a category instead of a tag, replace the filter with:
+{% raw %}{% assign workshop_posts = site.posts | where:"category","workshop" %}{% endraw %}
